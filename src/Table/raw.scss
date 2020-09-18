@@ -1,0 +1,19 @@
+.edit-cell{
+    
+    .cell-img{
+        width: 15px;
+        height: 15px;
+        visibility: hidden;
+        margin-bottom: 4px;
+        margin-left: 4px;
+    }
+    .cell-img:hover{
+        cursor: pointer;
+    }
+}
+
+.edit-cell:hover{
+    .cell-img{
+        visibility: visible;
+    }
+}
